@@ -1,0 +1,7 @@
+world-name: 'ZombieArena'
+arena-size: 100 # WARNING: Always make sure this number is equal to or bigger than 'distance-away'.
+distance-away: 100 # WARNING: If this number is lower than the 'arena-size:' it will cause issues and islands will overlap.
+grace-period: 30 # The time the attacker has before the waves start coming in! (Seconds)
+wave-one-start-delay: 5 # The delay that the wave will start after the grace period has ended. (Seconds)
+wave-one-spawn-rate: 2 # The rate at a zombie will spawn during the first wave! (Ex. If the spawn rate is "2" a zombie will spawn every 2 Seconds)
+wave-one-length: 60 # How long the first wave will last. (Seconds)
