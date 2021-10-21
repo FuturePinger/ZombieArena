@@ -1,0 +1,8 @@
+name: ZombieArena
+version: '${version}'
+main: com.zach.zombiearena.ZombieArena
+api-version: 1.17
+depend:
+  - WorldEdit
+commands:
+  arena:
